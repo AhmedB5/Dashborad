@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@25,50.2&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+LA:wght@100..400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.badge {
+  @apply absolute top-0 text-yellow-500 bg-black opacity-70 rounded-full p-2 m-2;
+}
+.btn {
+  @apply cursor-pointer border-primary-400 border-2 py-1 px-1 rounded-sm text-white bg-primary-500  hover:bg-primary-600;
+}
+.links {
+ @apply items-center p-4 flex justify-end  font-semibold;
+}
