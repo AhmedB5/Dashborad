@@ -892,8 +892,8 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/dist\/img\/table\.png\'\)\]{
-  background-image: url('/dist/img/table.png');
+.bg-\[url\(\'\/docs\/img\/table\.png\'\)\]{
+  background-image: url('/docs/img/table.png');
 }
 
 .bg-cover{
